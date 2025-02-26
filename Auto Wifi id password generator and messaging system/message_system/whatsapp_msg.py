@@ -50,7 +50,7 @@ def MSG_generator(username , Id , pass_word):
 
 def whatsapp_msg(username , Id , pass_word , send_to):
     send_to = phone_no_check_for_whatsapp(send_to)
-    TOKEN = "EAB0WREi08Y0BAPRohg2ixjE9GoIZB9yd4EvlmIwweYq8KJlNHT96w5Jkj6o800tTlCNpwZBA99e5Ihy5IJcV98FmINUDDivsuNz2zM8n1qMPYSJU3KUvlYZCDCvzax8HJyGXAfDylS4tsZBZBkJJhA7Ur1Xw4qfL9urewwlfRDIwgiR22okz7i2tkx00f58a5ZChv3ZAr5dTAZDZD"
+    TOKEN = "Token to send Whatsapp Message."
     try:
         MESSEGE = MSG_generator(username , Id ,pass_word)
         URL = 'https://graph.facebook.com/v16.0/100718606298262/messages'
@@ -82,4 +82,4 @@ def whatsapp_msg(username , Id , pass_word , send_to):
 
 
 if __name__ == "__main__":
-    whatsapp_msg("saim ahmed" , "201" , "12345" , "+27247336070" )#, "EAB0WREi08Y0BAPRohg2ixjE9GoIZB9yd4EvlmIwweYq8KJlNHT96w5Jkj6o800tTlCNpwZBA99e5Ihy5IJcV98FmINUDDivsuNz2zM8n1qMPYSJU3KUvlYZCDCvzax8HJyGXAfDylS4tsZBZBkJJhA7Ur1Xw4qfL9urewwlfRDIwgiR22okz7i2tkx00f58a5ZChv3ZAr5dTAZDZD")
+    whatsapp_msg("Raj Sharma" , "201" , "12345" , "+27247336070" )
